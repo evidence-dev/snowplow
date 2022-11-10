@@ -1,0 +1,7 @@
+
+version: 2
+
+models:
+  - name: sample_events
+    description: "Unpacked events from the Snowplow sample dataset"
+
