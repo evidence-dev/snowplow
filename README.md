@@ -21,8 +21,8 @@ To get started, clone this repo and launch the project in your browser.
 ``` 
 npx degit [this repo]
 cd [this repo]
-npm --prefix ./reporting install
-npm --prefix ./reporting run dev
+npm --prefix ./reports install
+npm --prefix ./reports run dev
 ```
 
 Once you have this page open in the browser, Click the "Next Page" button to get started.
