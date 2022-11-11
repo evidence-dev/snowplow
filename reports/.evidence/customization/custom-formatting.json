@@ -1,4 +1,10 @@
 {
   "version": "1.0",
-  "customFormats": []
+  "customFormats": [
+    {
+      "formatTag": "sec",
+      "formatCode": "#,### \"sec\"",
+      "valueType": "number"
+    }
+  ]
 }
