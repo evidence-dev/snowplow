@@ -23,8 +23,8 @@ Here you will learn to:
 
 To get started, clone this repo and launch the project in your browser.
 <pre><Code>
-git clone [this repo]
-cd [this repo]
+git clone https://github.com/archiewood/snowplow.git
+cd https://github.com/archiewood/snowplow.git
 npm --prefix ./reports install
 npm --prefix ./reports run dev
 </Code></pre>
