@@ -3,9 +3,13 @@
   import Footer from '$lib/Footer.svelte';
 </script>
 
-# Snowplow Mobile Accelerator
+![snowplow-logo-navy](snowplow-logo-navy.png)
+<br>
 
 !['logo-banner'](logo_banner.png)
+
+# Mobile Accelerator
+
 
 Welcome to the **Advanced Analytics for Web** accelerator. Once finished, you will be able to build a deeper understanding of customer behaviour on your website and use your data to influence business decisions.
 
@@ -18,12 +22,16 @@ Here you will learn to:
 ## Getting Started
 
 To get started, clone this repo and launch the project in your browser.
-<Code language="bash">  
-npx degit [this repo]
+<pre><Code>
+git clone [this repo]
 cd [this repo]
-npm --prefix ./reporting install
-npm --prefix ./reporting run dev
-</Code>
+npm --prefix ./reports install
+npm --prefix ./reports run dev
+</Code></pre>
+
+
+
+
 
 Once you have this page open in the browser, Click the "Next Page" button to get started.
 

@@ -6,7 +6,7 @@
 <style>
     pre{
       overflow: scroll;
-      background: var(--grey-999);
+      background: var(--grey-900);
       border-radius: 3px;
   
     }
@@ -16,7 +16,7 @@
       background: none;
       border: none;
       padding: 10px;
-      color: var(--grey-200)
+      color: var(--grey-100)
     }
 </style>
   

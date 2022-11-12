@@ -5,6 +5,11 @@
       "formatTag": "sec",
       "formatCode": "#,### \"sec\"",
       "valueType": "number"
+    },
+    {
+      "formatTag": "mmmyy",
+      "formatCode": "mmm-yy",
+      "valueType": "date"
     }
   ]
 }
