@@ -3,6 +3,9 @@
   import Footer from '$lib/Footer.svelte';
 </script>
 
+<link rel="stylesheet" href="theme-custom.css">
+
+
 <img src="snowplow-logo-navy.png" width="80%"/>
 <br>
 
@@ -30,10 +33,11 @@ npm --prefix ./reports run dev
 </Code></pre>
 
 
-
-
-
 Once you have this page open in the browser, Click the "Next Page" button to get started.
 
 
+> Please note that Snowflake will be used for illustration but the snowplow-mobile dbt package also supports BigQuery, Databricks, Postgres and Redshift. Further adapter support for this accelerator coming soon!
+
 <Footer next="1._import_and_model_data" />
+
+
