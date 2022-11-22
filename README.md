@@ -23,3 +23,5 @@ cd https://github.com/archiewood/snowplow
 npm --prefix ./reports install
 npm --prefix ./reports run dev
 </Code></pre>
+
+> Please note that Snowflake will be used for illustration but the snowplow-mobile dbt package also supports BigQuery, Databricks, Postgres and Redshift. Further adapter support for this accelerator coming soon!

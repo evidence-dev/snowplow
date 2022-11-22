@@ -2,6 +2,11 @@
   import Footer from '$lib/Footer.svelte';
 </script>
 
+<svelte:head>
+<link rel="stylesheet" href="theme-custom.css">
+</svelte:head>
+
+
 # {$page.params.country}
 
 ```sessions_by_month_by_country
@@ -29,7 +34,7 @@ count(1) AS number_of_sessions,
 rank() over (partition by geo_country order by count(1) desc) as city_rank
 from atomic_derived.snowplow_mobile_sessions
 group by 1,2
-order by 1,3 desc
+order by 1 desc
 ```
 
 The top {$page.params.country} cities by sessions are:
